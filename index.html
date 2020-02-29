@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+
+}
+.visible-mobile {
+  display: none !important;
+}
+
+@media (max-width: 489px) {
+  .visible-mobile {
+    display: inline !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+</style>
+</head>
+<body>
+  <img src="Landing-page-mobile.jpg" alt="Coming Soon" class="visible-mobile">
+
+<img src="Landing-page.jpg" alt="Coming Soon" class="hidden-mobile"/>
+
+
+</body>
+</html>
